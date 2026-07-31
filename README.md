@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date: 31/07/2026
+## Date: 
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -51,7 +51,7 @@ Upload to GitHub Pages for free hosting.
 
 index.html:
 
-```
+'''
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,12 +209,10 @@ index.html:
 
 </body>
 </html>
-```
+'''
 
 style.css:
-
-
-```
+'''
 *{
     margin:0;
     padding:0;
@@ -400,47 +398,41 @@ section h2{
     line-height:1.6;
 }
 
-/* Contact Section */
+/* Contact */
 
-.contact-container{
+form{
+    width:500px;
+    max-width:100%;
+    margin:auto;
     display:flex;
-    justify-content:center;
-    align-items:center;
+    flex-direction:column;
 }
 
-.contact-card{
-    background:white;
-    width:600px;
-    max-width:100%;
-    padding:35px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
+input,
+textarea{
+    padding:15px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:16px;
+}
+
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
     transition:.4s;
 }
 
-.contact-card:hover{
-    transform:translateY(-10px);
+button:hover{
+    background:#0055aa;
 }
 
-.contact-card h3{
-    color:#0077ff;
-    text-align:center;
-    margin-bottom:20px;
-}
-
-.contact-card p{
-    margin:15px 0;
-    font-size:18px;
-}
-
-.contact-card a{
-    color:#0077ff;
-    text-decoration:none;
-}
-
-.contact-card a:hover{
-    text-decoration:underline;
-}
+/* Footer */
 
 footer{
     background:#222;
@@ -486,7 +478,7 @@ section{
 }
 
 }
-```
+'''
 
 
 
