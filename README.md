@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date: 
+## Date: 31/07/2026
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -51,7 +51,7 @@ Upload to GitHub Pages for free hosting.
 
 index.html:
 
-'''
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,10 +209,11 @@ index.html:
 
 </body>
 </html>
-'''
+```
 
 style.css:
-'''
+
+```
 *{
     margin:0;
     padding:0;
@@ -478,18 +479,15 @@ section{
 }
 
 }
-'''
+```
 
 
 
 ## OUTPUT
 
-![alt text](<../1 (1).png>)
-![alt text](../2.png)
-![alt text](../3.png)
-
-
-
+<img width="1920" height="1200" alt="1 (1)" src="https://github.com/user-attachments/assets/50d6dce0-7169-42d0-bb18-e5072a8a6e00" />
+<img width="1920" height="1200" alt="2" src="https://github.com/user-attachments/assets/27bb8955-bd02-464a-be71-e929c4e6df5a" />
+<img width="1920" height="1200" alt="3" src="https://github.com/user-attachments/assets/5d28a5bb-3cee-44dd-af8a-53254ccb1d44" />
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
