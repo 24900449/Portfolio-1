@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date: 31/07/2026
+## Date:03.08.2026
 
 ## AIM
 To create a Portfolio using HTML and CSS.
@@ -48,9 +48,7 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
-
 index.html:
-
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -62,167 +60,98 @@ index.html:
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h2 class="logo">Portfolio</h2>
+<header>
+    <h1>Hi, I'm Priyanka</h1>
+    <p>Computer Science Engineering Student</p>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <!-- Home -->
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>Hello, I'm <span>Subiksha Kumar</span></h1>
-            <p>Aspiring Web Developer | Student | Designer</p>
-            <a href="#contact" class="btn">Contact Me</a>
-        </div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a Computer Science Engineering student passionate about
+        Java, Web Development, Machine Learning, and Cloud Computing.
+        I enjoy building real-world projects and continuously learning
+        new technologies.
+    </p>
+</section>
 
-        <div class="hero-image">
-            <img src="profile.jpeg" alt="Profile">
-        </div>
-    </section>
+<section id="skills">
+    <h2>Skills</h2>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-
-        <p>
-            I am a passionate Computer Science student interested in
-            Web Development, UI/UX Design, and Data Analytics.
-            I enjoy creating responsive websites and learning new
-            technologies.
-        </p>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-
-        <h2>Skills</h2>
-
-        <div class="skills-container">
-
-            <div class="skill-card">HTML5</div>
-
-            <div class="skill-card">CSS3</div>
-
-            <div class="skill-card">JavaScript</div>
-
-            <div class="skill-card">Python</div>
-
-            <div class="skill-card">SQL</div>
-
-            <div class="skill-card">UI/UX</div>
-
-        </div>
-
-    </section>
-
-    <!-- Projects -->
-    <section id="projects">
-
-        <h2>Projects</h2>
-
-        <div class="project-container">
-
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    A responsive portfolio website created using
-                    HTML and CSS.
-                </p>
-
-            </div>
-
-            <div class="project-card">
-                <h3>Weather App</h3>
-
-                <p>
-                    Displays weather information using API integration.
-                </p>
-
-            </div>
-
-            <div class="project-card">
-                <h3>Student Management System</h3>
-
-                <p>
-                    A CRUD-based application for managing student records.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="contact">
-
-    <h2>Contact Me</h2>
-
-    <div class="contact-container">
-
-        <div class="contact-card">
-
-            <h3>Get In Touch</h3>
-
-            <p><strong>Name:</strong> Subiksha Kumar</p>
-
-            <p><strong>Degree:</strong> B.E. Computer Science and Engineering</p>
-
-            <p><strong>College:</strong> Saveetha Engineering College</p>
-
-            <p><strong>Email:</strong> subiksha@example.com</p>
-
-            <p><strong>Phone:</strong> +91 6379925799</p>
-
-            <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
-
-            <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/2400100" target="_blank">
-                    github.com/2400100
-                </a>
-            </p>
-
-        </div>
-
+    <div class="card">
+        <h3>Programming</h3>
+        <p>Java, C, Python</p>
     </div>
 
-    </section>
+    <div class="card">
+        <h3>Web</h3>
+        <p>HTML, CSS, JavaScript</p>
+    </div>
 
-    <!-- Footer -->
+    <div class="card">
+        <h3>Database</h3>
+        <p>MySQL</p>
+    </div>
 
-    <footer>
+    <div class="card">
+        <h3>Tools</h3>
+        <p>Git, GitHub, VS Code</p>
+    </div>
 
-        <p>© 2026 Your Name | All Rights Reserved</p>
+</section>
 
-    </footer>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Blood Donation App</h3>
+        <p>
+            A mobile application that helps hospitals quickly notify
+            nearby blood donors through SMS or WhatsApp.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Student Management System</h3>
+        <p>
+            Java-based desktop application for managing student records.
+        </p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email : yourmail@gmail.com</p>
+    <p>GitHub : https://github.com/yourusername</p>
+    <p>LinkedIn : https://linkedin.com/in/yourprofile</p>
+
+</section>
+
+<footer>
+    <p>© 2026 Priyanka | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
 ```
-
 style.css:
-
 ```
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
+    font-family:Arial, sans-serif;
 }
 
 body{
@@ -230,210 +159,41 @@ body{
     color:#333;
 }
 
-/* Navigation */
-
 header{
-    background:#222;
+    background:#0077cc;
     color:white;
-    position:fixed;
-    width:100%;
-    top:0;
-    z-index:1000;
+    padding:50px;
+    text-align:center;
 }
 
 nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:18px 60px;
+    background:#222;
+    padding:15px;
+    text-align:center;
 }
 
-.logo{
-    font-size:30px;
-}
-
-.nav-links{
-    display:flex;
-    list-style:none;
-}
-
-.nav-links li{
-    margin-left:30px;
-}
-
-.nav-links a{
+nav a{
     color:white;
     text-decoration:none;
-    font-size:18px;
-    transition:.3s;
+    margin:15px;
+    font-weight:bold;
 }
 
-.nav-links a:hover{
-    color:#00c3ff;
+nav a:hover{
+    color:skyblue;
 }
-
-/* Hero */
-
-.hero{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    padding:150px 60px 80px;
-    flex-wrap:wrap;
-}
-
-.hero-text{
-    max-width:500px;
-}
-
-.hero-text h1{
-    font-size:50px;
-    margin-bottom:20px;
-}
-
-.hero-text span{
-    color:#0077ff;
-}
-
-.hero-text p{
-    font-size:22px;
-    margin-bottom:30px;
-}
-
-.btn{
-    background:#0077ff;
-    color:white;
-    text-decoration:none;
-    padding:12px 30px;
-    border-radius:30px;
-    transition:.4s;
-}
-
-.btn:hover{
-    background:#0055aa;
-}
-
-.hero-image img{
-    width:350px;
-    height:350px;
-    border-radius:50%;
-    object-fit:cover;
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
-}
-
-/* Sections */
 
 section{
-    padding:80px 60px;
+    padding:40px;
 }
 
-section h2{
-    text-align:center;
-    font-size:40px;
-    margin-bottom:40px;
-    color:#0077ff;
-}
-
-#about p{
-    text-align:center;
-    max-width:900px;
-    margin:auto;
-    line-height:1.8;
-    font-size:20px;
-}
-
-/* Skills */
-
-.skills-container{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:25px;
-}
-
-.skill-card{
+.card{
     background:white;
-    padding:30px;
-    width:180px;
-    text-align:center;
+    margin:20px 0;
+    padding:20px;
     border-radius:10px;
-    box-shadow:0 4px 10px rgba(0,0,0,.2);
-    transition:.4s;
-    font-size:20px;
+    box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
-
-.skill-card:hover{
-    transform:translateY(-10px);
-    background:#0077ff;
-    color:white;
-}
-
-/* Projects */
-
-.project-container{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:30px;
-}
-
-.project-card{
-    background:white;
-    width:300px;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
-    transition:.4s;
-}
-
-.project-card:hover{
-    transform:scale(1.05);
-}
-
-.project-card h3{
-    margin-bottom:15px;
-    color:#0077ff;
-}
-
-.project-card p{
-    line-height:1.6;
-}
-
-/* Contact */
-
-form{
-    width:500px;
-    max-width:100%;
-    margin:auto;
-    display:flex;
-    flex-direction:column;
-}
-
-input,
-textarea{
-    padding:15px;
-    margin:10px 0;
-    border-radius:8px;
-    border:1px solid #ccc;
-    font-size:16px;
-}
-
-button{
-    background:#0077ff;
-    color:white;
-    border:none;
-    padding:15px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:18px;
-    transition:.4s;
-}
-
-button:hover{
-    background:#0055aa;
-}
-
-/* Footer */
 
 footer{
     background:#222;
@@ -441,53 +201,15 @@ footer{
     text-align:center;
     padding:20px;
 }
-
-/* Responsive */
-
-@media(max-width:768px){
-
-nav{
-    flex-direction:column;
-}
-
-.nav-links{
-    flex-direction:column;
-    margin-top:20px;
-}
-
-.nav-links li{
-    margin:10px 0;
-}
-
-.hero{
-    flex-direction:column;
-    text-align:center;
-}
-
-.hero-image img{
-    width:250px;
-    height:250px;
-    margin-top:40px;
-}
-
-.hero-text h1{
-    font-size:36px;
-}
-
-section{
-    padding:60px 20px;
-}
-
-}
 ```
 
 
 
-## OUTPUT
 
-<img width="1920" height="1200" alt="1 (1)" src="https://github.com/user-attachments/assets/50d6dce0-7169-42d0-bb18-e5072a8a6e00" />
-<img width="1920" height="1200" alt="2" src="https://github.com/user-attachments/assets/27bb8955-bd02-464a-be71-e929c4e6df5a" />
-<img width="1920" height="1200" alt="3" src="https://github.com/user-attachments/assets/5d28a5bb-3cee-44dd-af8a-53254ccb1d44" />
+
+## OUTPUT
+<img width="1910" height="1071" alt="Screenshot 2026-07-31 213450" src="https://github.com/user-attachments/assets/677b2d68-f4ae-48b3-bf80-7a89cafd8cf7" />
+
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
